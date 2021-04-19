@@ -1,5 +1,5 @@
 # Task 1
-:mortar_board: Task 1 состоит из пяти задач. Все заготовки задач находятся в корне проекта в папке *src/main/kotlin*. В каждой заготовке вам дан класс с открытым методом, в который вам нужно написать код для решения поставленной задачи.
+:mortar_board: Task 1 состоит из трёх задач. Все заготовки задач находятся в корне проекта в папке *src/main/kotlin*. В каждой заготовке вам дан класс с открытым методом, в который вам нужно написать код для решения поставленной задачи.
 
 <img alt="structure_of_tasks" src="/images/img_1.PNG" />
 
@@ -50,39 +50,7 @@ Nota Bene: first and last elements of the array are always happy.
 **Output:** "Happy" array of integers
 
 
-### 2) Mini-Max Sum
-
-Given array of positive integers, find the minimum and maximum values that can
-be calculated by summing exactly four of the five integers. Then print the
-respective minimum and maximum values as a single line of two space-
-separated long integers.
-
-Explanation:
-Our initial numbers are 1, 2, 3, 4, and 5. We can calculate the following sums
-using four of the five integers:
-
-1. If we sum everything except 1, our sum is 2 + 3 + 4 + 5 =14.
-
-2. If we sum everything except 2, our sum is 1 + 3 + 4 + 5 =13.
-
-3. If we sum everything except 3, our sum is 1 + 2 + 4 + 5 =12.
-
-4. If we sum everything except 4, our sum is 1 + 2 + 3 + 5 =11.
-
-5. If we sum everything except 5, our sum is 1 + 2 + 3 + 4 = 10.
-
-**Input:** An array of integers
-
-**Output:** An array of integers denoting the respective minimum
-and maximum values that can be calculated by summing exactly four of the
-five integers.
-
-Sample Input: 1 2 3 4 5
-
-Sample Output: 10 14
-
-
-### 3) Bill Counter
+### 2) Bill Counter
 
 Anna and Brian are sharing a meal at a restaurant and they agree to split the
 bill equally. Brian wants to order something that Anna is allergic to though,
@@ -109,7 +77,7 @@ the difference (i.e., *b_charged - b_actual*) that Brian must refund to Anna. Th
 always be a String (e.g. *"10"*).
 
 
-### 4) String Parser
+### 3) String Parser
 
 Given a string with open-close brackets, which are [], <> or (). Find *all the substrings*
 substrings, that are met between the brackets.
@@ -134,59 +102,5 @@ Sample Output:
 Nota Bene: Please, do not forget to handle situation with nested brackets (e.g.
 «(ipsum [dolor<] amet)>»).
 
-
-### 5) Highest Palindrome
-
-Palindromes are strings that read the same from the left or right, for example *madam* or *0110*.
-
-You will be given a string representation of a number and a maximum number of changes you can make.
-Alter the string, one digit at a time, to create the string representation of the largest number possible
-given the limit to the number of changes. The length of the string may not be altered, so you must
-consider 0's left of all higher digits in your tests. For example **0110** is valid, **0011** is not.
-
-Given a string representing the starting number and a maximum number of changes allowed, create the
-largest palindromic string of digits possible or the string *-1* if it's impossible to create a palindrome under
-the contstraints.
-
-Note Bene: Treat the integers as numeric strings. Leading zeros are permitted and can't be ignored so **0011** is
-not a palindrome, but **0110** is. A digit can be modified more than once.
-
-**Input:**
-Two integers, *n* (the number of digits in the number) and *k* (the
-maximum number of changes allowed) and *n*—digit *String* of numbers that Sandy must attempt to make palindromic.
-
-**Output:** *String* with the largest number that can be made by changing no more than *k*: digits; if this is
-not possible, print *"-1"*. This will always be a String.
-
-Sample Input 0 
-
-4 1 "3943"
-
-Sample Output 0
-
-"3993"
-
-Explanation:
-
-There are two ways to make "3943" a palindrome by changing no more than *k* = 1 digits:
- 1. 3943 —> 3443
- 2. 3943 —> 3993
-3993 > 3443, so we print "3993".
-
-Sample Input 1
-
-6 3 "092282"
-
-Sample Output 1
-
-"992299"
-
-Sample Input 2
-
-4 1 "0011"
-
-Sample Output 2
-
-"-1"
 
 :ok_hand:

@@ -1,9 +1,9 @@
-package subtask2
+package subtask3
 
-class MiniMaxSum {
+class StringParser {
 
     // TODO: Complete the following function
-    fun getResult(input: IntArray): IntArray {
+    fun getResult(inputString: String): Array<String> {
         throw NotImplementedError("Not implemented")
     }
 }
