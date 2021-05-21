@@ -19,7 +19,7 @@
 
 <img alt="launch test via class" src="/images/img_3.PNG" />
 
-:exclamation: В последних версиях Android Studio (>= 4.2) убрали по-умолчанию построение дерева tasks Gradle. Поэтому вы можете не найти задачу *test* в Gradle -> Tasks -> verification -> test* и тесты могут не запускаться. 
+:exclamation: В последних версиях Android Studio (>= 4.2) убрали по-умолчанию построение дерева tasks Gradle. Поэтому вы можете не найти задачу *test* в `Gradle -> Tasks -> verification -> test` и тесты могут не запускаться. 
 
 Во-первых, эту несправедливость несложно поправить. Зайдите в `File -> Settings -> Experimental` и отключите `Do not build Gradle task list during Gradle sync`. Затем сделайте sync проекта с Gradle: `File -> Sync Project with Gradle Files`
 
