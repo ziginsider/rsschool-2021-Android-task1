@@ -99,7 +99,7 @@ substring between the open-close bracket.
 
 Sample Input:
 
-«It’s <an> [example] (string)»
+«It’s \<an\> [example] (string)»
 
 Sample Output:
 
