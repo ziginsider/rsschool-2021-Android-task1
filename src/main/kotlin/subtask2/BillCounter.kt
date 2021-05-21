@@ -1,4 +1,4 @@
-package subtask3
+package subtask2
 
 class BillCounter {
 
