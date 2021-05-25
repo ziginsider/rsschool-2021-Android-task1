@@ -85,8 +85,7 @@ always be a String (e.g. *"10"*).
 
 ### 3) String Parser
 
-Given a string with open-close brackets, which are [], <> or (). Find *all the substrings*
-substrings, that are met between the brackets.
+Given a string with open-close brackets, which are [], <> or (). Find *all the substrings*, that are met between the brackets.
 
 Note that substring must be located between **first** met open and close
 bracket. As an example, for «(here is) some text)» the input would be «here
